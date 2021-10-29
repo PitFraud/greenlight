@@ -97,7 +97,7 @@
 
           <p id="namefile">Only pics allowed! (jpg,jpeg,bmp,png)</p>
           <!--our custom btn which which stays under the actual one-->
-          <button type="button"  class="btn btn-primary btn-lg">Browse for your pic!</button>
+          <button type="button"  class="btn btn-primary btn-sm">Choose a profile picture!</button>
           <!--this is the actual file input, is set with opacity=0 beacause we wanna see our custom one-->
           <input type="file" value="<?php if(isset($user_image[0]->user_pimage_name)) echo $user_image[0]->user_pimage_name ?>" name="profile_img" id="fileup">
         </div>
